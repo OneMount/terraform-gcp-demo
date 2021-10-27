@@ -1,5 +1,5 @@
 variable "project_id" {
-  default = "vinid-playground"
+  default = yourproject
 }
 
 data "google_compute_default_service_account" "default" {}

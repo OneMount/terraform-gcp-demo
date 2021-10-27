@@ -11,7 +11,7 @@ provider "google" {
 
 data "google_service_account_access_token" "sa" {
   provider               = google.tokengen
-  target_service_account = "resources-creator@vinid-playground.iam.gserviceaccount.com"
+  target_service_account = "resources-creator@yourproject.iam.gserviceaccount.com"
   #service account được tạo ở bước trên
   lifetime               = "3500s"
   scopes = [

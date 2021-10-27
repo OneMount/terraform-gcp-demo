@@ -1,0 +1,6 @@
+version: 3
+projects:
+- dir: .
+  terraform_version: 1.0.8
+  autoplan:
+    enabled: false 
